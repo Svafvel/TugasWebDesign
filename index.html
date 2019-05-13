@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tugas WebDesign</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatitble" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css"/>
+
+    <link rel="stylesheet" href="css/style.css"/>
+
+
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="jumbotron text-center">
+            <h2>Beli Laptop Online dan Travel</h2>
+            <p>Silakan Pilih Laptop yang anda inginkan</p>
+            <p>Jika Anda Ingin Ke Halaman Travel <a href="travel/index.html">Klik Ini</a></p>
+        </div>
+        <form class="form-horizontal" name="formselect">
+            <div class="form-group">
+                <div class="row">
+                    <div class="col">
+                        <label for="exampleFormControlSelect1">Laptop : </label>
+                        <select class="form-control pilih" id="exampleFormControlSelect1" name="Pilih">
+                            <option value="- Pilih Laptop -">- Pilih Laptop -</option>
+                            <option value="Acer">Acer</option>
+                            <option value="Asus">Asus</option>
+                            <option value="Lenovo">Lenovo</option>
+                            <option value="LG">LG</option>
+                            <option value="Toshiba">Toshiba</option>
+                            <option value="Panasonic">Panasonic</option>
+                        </select>                   
+                    </div>
+                    <div class="col">
+                        <label for="exampleFormControlSelect1">Harga : </label>
+                        <input type="text" class="form-control Harga" name="outputHarga" value="0">                    
+                    </div>
+                    <div class="col">
+                        <label for="exampleFormControlSelect1">Qty : </label>
+                        <input type="text" class="form-control Qty" name="Qty" value="0">  
+                    </div>
+                </div>  
+                </div>
+                <button class="btn btn-primary proses" type="button">Beli</button>
+                <button class="btn btn-primary" type="reset">Reset</button>
+                <br><br>
+                <div class="form-group">
+                <div class="col">
+                     <label class="control-label" for="Laptop">Laptop : </label>
+                    <input type="text" class="form-control olaptop" name="output">                   
+                </div>
+                <div class="col">
+                    <label class="control-label" for="Harga">Harga : </label>
+                    <input type="text" class="form-control oharga" name="output">
+                </div>
+                <div class="col">
+                    <label class="control-label" for="Qty">Qty : </label>
+                    <input type="text" class="form-control oqty" name="output">
+                </div>
+                <div class="col">
+                    <label class="control-label" for="Total Bayar">Total Bayar : </label>
+                    <input type="text" class="form-control ototalbayar" name="output">
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+    <script src="Bootstrap/jquery/jquery.js"></script>
+    <script src="Bootstrap/popper/popper.js"></script>
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/javascript.js"></script>
+</body>
+</html>
+

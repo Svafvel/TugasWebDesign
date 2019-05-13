@@ -57,7 +57,7 @@ $(document).ready(function(){
 
 			if($('.Member').prop('checked') == true ){
 
-				$('.Diskon').val(Harga*0.1);
+				$('.Diskon').val(SubTotal*0.1);
 
 			}else {
 
